@@ -1,0 +1,9 @@
+bin
+obj
+packages
+*.stackdump
+*.user
+*.suo
+*.vscode*
+.vs
+/iis/iis/Properties/PublishProfiles/
