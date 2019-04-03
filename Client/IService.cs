@@ -7,9 +7,13 @@ using System.Threading.Tasks;
 
 namespace Client
 {
+	[ServiceContract]
 	interface IService
 	{
 		[OperationContract]
 		void SendAlgorithm(string text);
+
+		[OperationContract]
+		string GetData(int value);
 	}
 }
