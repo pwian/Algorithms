@@ -6,4 +6,3 @@ packages
 *.suo
 *.vscode*
 .vs
-/iis/iis/Properties/PublishProfiles/
